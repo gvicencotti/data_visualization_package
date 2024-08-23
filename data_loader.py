@@ -6,7 +6,7 @@ def load_csv(file_path):
         dataframe = pd.read_csv(file_path)
         return dataframe
     except Exception as e:
-        print(f"Erro ao carregar CSV": {e})
+        print(f"Erro ao carregar CSV: {e}")
         return None
     
 def load_json(file_path):
@@ -14,7 +14,7 @@ def load_json(file_path):
         dataframe = pd.read_json(file_path)
         return dataframe
     except Exception as e:
-        print(f"Erro ao carregar JSON": {e})
+        print(f"Erro ao carregar JSON: {e}")
         return None
     
 def load_sql(database_path, query):
@@ -24,5 +24,5 @@ def load_sql(database_path, query):
         conn.close()
         return dataframe
     except Exception as e:
-        print(f"Erro ao carregar dados SQL": {e})
+        print(f"Erro ao carregar dados SQL: {e}")
         return None

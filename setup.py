@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="data-visalization-package",
+    name="data-visualization-package",
     version="0.1.0",
     author="Gustavo",
     author_email="gustavovicencotti@gmail.com",
     description="Data visualization package with graphics and interactivity support",
-    long_description=page_description,
+    long_description="Detailed description of the data visualization package",
     long_description_content_type="text/markdown",
     url="https://github.com/gvicencotti/image-processing-package",
     packages=find_packages(),
